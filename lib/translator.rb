@@ -6,10 +6,18 @@ def load_library(path)
   hash = YAML.load_file(path)
   pp(hash)
 
-  return {
+
+
+  result = {
     get_meaning: {},
     get_emoticon: {}
   }
+
+
+  japanese_emoticons = hash.each{ |e|
+    puts e
+  }
+
 end
 
 def get_japanese_emoticon
