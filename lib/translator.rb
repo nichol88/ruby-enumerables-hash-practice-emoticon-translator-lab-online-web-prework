@@ -21,7 +21,7 @@ def load_library(path)
     puts result[:get_meaning][description]
   }
 
-
+  puts result
   result
 end
 
