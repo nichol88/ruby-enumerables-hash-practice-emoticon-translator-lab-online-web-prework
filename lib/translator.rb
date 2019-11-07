@@ -11,7 +11,7 @@ def load_library(path)
     :get_emoticon => {}
   }
 
-
+  puts result
 
 end
 
