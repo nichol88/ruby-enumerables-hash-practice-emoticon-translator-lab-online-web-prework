@@ -6,17 +6,13 @@ def load_library(path)
   hash = YAML.load_file(path)
   #pp(hash)
 
-
-
   result = {
     :get_meaning => {},
     :get_emoticon => {}
   }
 
-  result = hash.map { |description, emoticons|
-    description => emoticons[1]
-  }
-  result
+
+
 end
 
 def get_japanese_emoticon
