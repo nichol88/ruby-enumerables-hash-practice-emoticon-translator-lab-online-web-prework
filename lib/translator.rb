@@ -1,9 +1,9 @@
 # require modules here
 require "yaml"
 
-def load_library
+def load_library(path)
   # code goes here
-  
+  YAML.load_file('fruits.yml')
 end
 
 def get_japanese_emoticon
