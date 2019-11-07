@@ -14,11 +14,8 @@ def load_library(path)
   }
 
   result = hash.map { |description, emoticons|
-    result[:get_meaning][description] = emoticons[1]
-    puts result[:get_meaning][description]
+    description => emoticons[1]
   }
-
-  puts result
   result
 end
 
