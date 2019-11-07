@@ -13,16 +13,9 @@ def load_library(path)
     :get_emoticon => {}
   }
 
-
-  japanese_emoticons = hash.reduce() { |k, v|
-    #puts "memo: #{m}"
-    puts "key: #{k}"
-    puts "val: #{v}"
-
-    #result[get_meaning][m] = v
+  hash.each { |description, emoticons|
+    
   }
-
-  #result[:get_meaning] = japanese_emoticons
 
   result
 end
