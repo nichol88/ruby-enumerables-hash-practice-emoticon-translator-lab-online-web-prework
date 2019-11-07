@@ -16,7 +16,10 @@ def load_library(path)
 
   japanese_emoticons = hash.each{ |k,v|
     puts "#{k} :: #{v}"
+    result[:get_meaning][k] = v
   }
+
+  result[:get_meaning] = japanese_emoticons
 
 end
 
