@@ -9,8 +9,8 @@ def load_library(path)
 
 
   result = {
-    get_meaning: {},
-    get_emoticon: {}
+    :get_meaning => {},
+    :get_emoticon => {}
   }
 
 
