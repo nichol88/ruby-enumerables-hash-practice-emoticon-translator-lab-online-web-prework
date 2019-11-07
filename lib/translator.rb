@@ -12,8 +12,13 @@ def load_library(path)
   }
 
   hash.each{ |description, emojis|
+
     if !result[:get_meaning][emojis[1]]
       result[:get_meaning][emojis[1]] = description
+    end
+
+    if !result[:get_emoticon][emojis[0]]
+      result[:get_emoticon][emojis[0]] = description
     end
   }
 =begin
