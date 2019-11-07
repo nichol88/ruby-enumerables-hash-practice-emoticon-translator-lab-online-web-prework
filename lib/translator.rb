@@ -13,10 +13,7 @@ def load_library(path)
     :get_emoticon => {}
   }
 
-  hash.each { |description, emoticons|
-    if !result[:get_meaning][description]
-      result[:get_meaning][description] = {}
-    end
+  result = hash.map { |description, emoticons|
     result[:get_meaning][description] = emoticons[1]
     puts result[:get_meaning][description]
   }
