@@ -17,7 +17,7 @@ def load_library(path)
     if !result[:get_meaning][description]
       result[:get_meaning][description] = {}
     end
-    result[:get_meaning][description] = emoticons
+    result[:get_meaning][description] = emoticons[1]
     puts result[:get_meaning][description]
   }
 
