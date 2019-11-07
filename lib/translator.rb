@@ -19,7 +19,7 @@ def load_library(path)
     result[:get_meaning][k] = v
   }
 
-  result[:get_meaning] = japanese_emoticons
+  #result[:get_meaning] = japanese_emoticons
 
 end
 
