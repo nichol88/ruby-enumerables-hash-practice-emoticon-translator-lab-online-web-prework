@@ -14,8 +14,8 @@ def load_library(path)
   }
 
 
-  japanese_emoticons = hash.each{ |e|
-    puts e
+  japanese_emoticons = hash.each{ |k,v|
+    puts "#{k} :: #{v}"
   }
 
 end
