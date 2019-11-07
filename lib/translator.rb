@@ -18,7 +18,7 @@ def load_library(path)
     end
 
     if !result[:get_emoticon][emojis[0]]
-      result[:get_emoticon][emojis[0]] = description
+      result[:get_emoticon][emojis[0]] = emojis[1]
     end
   }
 =begin
