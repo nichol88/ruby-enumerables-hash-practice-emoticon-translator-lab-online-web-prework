@@ -15,9 +15,9 @@ def load_library(path)
 
 
   japanese_emoticons = hash.reduce() { |m, (k, v)|
-    puts m
-    puts k
-    puts v
+    puts "memo: #{m}"
+    puts "key: #{k}"
+    puts "val: #{v}"
 
     #result[get_meaning][m] = v
   }
