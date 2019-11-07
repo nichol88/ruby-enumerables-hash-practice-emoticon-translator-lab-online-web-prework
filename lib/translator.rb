@@ -4,7 +4,7 @@ require "yaml"
 def load_library(path)
   # code goes here
   hash = YAML.load_file(path)
-  puts hash
+  pp(hash)
 
   return {
     get_meaning: {},
