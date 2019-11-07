@@ -18,7 +18,9 @@ def load_library(path)
       result[:get_meaning][description] = {}
     end
     result[:get_meaning][description] = emoticons
+    puts result[:get_meaning][description]
   }
+
 
   result
 end
