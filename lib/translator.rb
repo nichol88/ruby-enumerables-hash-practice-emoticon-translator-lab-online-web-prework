@@ -21,6 +21,7 @@ def load_library(path)
 
   #result[:get_meaning] = japanese_emoticons
 
+  result
 end
 
 def get_japanese_emoticon
