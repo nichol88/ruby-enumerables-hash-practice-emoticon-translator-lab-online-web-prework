@@ -7,8 +7,8 @@ def load_library(path)
   puts hash
 
   return {
-    get_meaning: => {},
-    get_emoticon: => {}
+    get_meaning: {},
+    get_emoticon: {}
   }
 end
 
