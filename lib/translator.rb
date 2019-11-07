@@ -7,7 +7,7 @@ def load_library(path)
   pp(hash)
 
   return {
-    get_meaning: hash,
+    get_meaning: hash.collect {|val| val},
     get_emoticon: {}
   }
 end
