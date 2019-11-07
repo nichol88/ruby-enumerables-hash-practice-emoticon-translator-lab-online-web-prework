@@ -13,7 +13,7 @@ def load_library(path)
 
   hash.each{ |description, emojis|
     if !result[:get_meaning][emojis[1]]
-      result[:get_meaning][emojis[1]]
+      result[:get_meaning][emojis[1]] = {}
     end
   }
 
